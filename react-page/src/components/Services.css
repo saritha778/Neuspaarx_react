@@ -1,0 +1,38 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    gap:2rem;
+    justify-content: center;
+}
+.grid-item{
+    background-color: rgb(247, 224, 196);
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding:2rem;
+    transition: all 0.5s linear;
+   
+}
+.grid-item:hover{
+    background-color:goldenrod;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding:2rem;
+    transform: scale(1.1);
+}
+.grid-item img{
+    width:2rem;
+    height: 2rem;
+    border-radius:1px solid black;
+}
+.grid-item h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
